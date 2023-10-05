@@ -1,12 +1,16 @@
 import DeveloperSection from "../components/DeveloperSection"
 import DividerCom from "../components/DividerCom"
+import Projects from "../components/Projects"
 
 const Home = () => {
   return (
-    <div className="p-20">
-      <DeveloperSection/>
-      <DividerCom/>
-    </div>
+    <>
+      <div className="md:px-20">
+        <DeveloperSection />
+        <DividerCom />
+         <Projects />
+      </div>
+    </>
   )
 }
 
